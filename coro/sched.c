@@ -92,7 +92,7 @@ static void schedule(void)
         list_first_entry(&task_current->list, struct task_struct, list);
     if (next_task) {
         if (task_current->reap_self)
-            list_move_tail(&task_current->list, &task_reap);
+            list_move(&task_current->list, &task_reap);
         task_switch_to(task_current, next_task);
     }
 
