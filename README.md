@@ -1,9 +1,10 @@
 # Linux 核心設計 學習筆記
+>此筆記是依據2023課程
 
 [iankao0000/github](https://github.com/iankao0000)
 [成大wiki](https://wiki.csie.ncku.edu.tw/linux/schedule)
 [討論區fb](https://www.facebook.com/groups/1531876370923589/?hoisted_section_header_type=recently_seen&multi_permalinks=1582965082481384)
-[.GUTS Youtube](https://www.youtube.com/@sysprog)
+[.GUTS_Youtube](https://www.youtube.com/@sysprog)
 
 ## 第一週
 
@@ -52,12 +53,24 @@
 
 [Linux Timer](https://hackmd.io/IvfBOgDAQUaWFFoHwjg99Q)
 
+[題目 2023q1 第 5 週測驗題](https://hackmd.io/quzRpMyWRWCN-3lk4ByIIA)
+
 
 
 
 ##    第六週
 
 [題目 2023q1 第 6 週測驗題](https://hackmd.io/2FhNTftlSuynVEcED0BEkw)
+>signal.h; ucontext.h; unistd.h; setjump
+
+##    第七週
+
+[Concurrency](https://hackmd.io/C8yIqZC2SvKxH_6dKyuEXg)
+
+
+
+##    第八週
+
 
 
 ## 可學習方向
