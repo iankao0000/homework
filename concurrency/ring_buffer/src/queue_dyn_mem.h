@@ -67,7 +67,7 @@ void queue_put(queue_t *q, uint8_t *buffer, size_t size)
         pthread_cond_wait(&q->writeable, &q->lock);
 
     memcpy(&q->buffer[q->tail], buffer, sizeof(size_t));
-     // printf("put : %ld\n", *(size_t *) buffer);
+//    printf("put : %ld\n", *(size_t *) buffer);
     q->tail += size;
     q->tail %= q->size;
 
@@ -91,7 +91,7 @@ size_t queue_get(queue_t *q, uint8_t *buffer, size_t max)
         pthread_cond_wait(&q->readable, &q->lock);
 
     memcpy(buffer, &q->buffer[q->head], sizeof(size_t));
-    // printf("get : %ld\n", *(size_t *) buffer);
+//    printf("get : %ld\n", *(size_t *) buffer);
     q->head += max;
     q->head %= q->size;
 
