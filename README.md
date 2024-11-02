@@ -71,8 +71,10 @@
 
 ##    第八週
 
+[題目 2023q1 第 8 週測驗題](https://hackmd.io/PPwYuziiRheU7YciltqowA)
 
 
-## 可學習方向
+## 待整理
 
-亂數
+[mmap](https://hackmd.io/@sysprog/CSAPP-ch9)
+[ringbuffer](https://hackmd.io/@sysprog/concurrency/%2F%40sysprog%2Fconcurrency-ringbuffer)
