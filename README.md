@@ -78,3 +78,4 @@
 
 [mmap](https://hackmd.io/@sysprog/CSAPP-ch9)
 [ringbuffer](https://hackmd.io/@sysprog/concurrency/%2F%40sysprog%2Fconcurrency-ringbuffer)
+[shared memory](https://hackmd.io/@sysprog/linux-shared-memory)
